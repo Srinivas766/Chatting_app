@@ -8,6 +8,8 @@ export default function NewConversationModal({ closeModal }) {
   const { contacts } = useContacts()
   const { createConversation } = useConversations()
 
+
+
   function handleSubmit(e) {
     e.preventDefault()
 
